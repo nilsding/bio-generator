@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Twitterbio-Generator</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css" />
+<script src="http://static.nilsding.org/jquery.js"></script>
+<script src="script.js"></script>
+<style>.cs{font-family:"Comic Sans MS", "Comic Sans"}</style>
+</head>
+<body>
+<a href="https://github.com/nilsding/bio-generator"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+<div class="container">
+<h1>Der™ Bio™-Generator™ <small>für™ Twitter®™</small></h1>
+<noscript>
+<div class="alert alert-danger"><a href="http://www.activatejavascript.org/" class="alert-link">Aktiviere JavaScript</a>, du Erbsenzähler.</div>
+</noscript>
+<div class="row">
+  <div class="col-sm-6">
+    <h4>Generisches</h4>
+    <label>Alter: <input type="number" value="9" id="age"></label><hr />
+    <label>Geschlecht:
+      <select id="gender">
+        <option value="male">männlich</option>
+        <option value="female">weiblich</option>
+        <option value="seperator" disabled="disabled">---------------</option>
+        <option value="other">Eigenes™</option>
+      </select>
+    </label><hr />
+    <label>sexuelle Orientierung:
+      <select id="orientation">
+        <option value="het">heterosexuell</option>
+        <option value="gay">schwul</option>
+        <option value="les">lesbisch</option>
+        <option value="bi">bisexuell</option>
+        <option value="pfanne">pansexuell</option>
+        <option value="a">asexuell</option>
+        <option value="homo">homoschwul</option>
+        <option value="seperator" disabled="disabled">---------------</option>
+        <option value="other">Eigenes™</option>
+      </select>
+    </label>
+  </div>
+  <div class="col-sm-6">
+    <h4>Persönliches</h4>
+    <label>Vegetarismus und so:
+      <select id="foodproblems">
+        <option value="frut">Frutarier</option>
+        <option value="vegan">Veganer</option>
+        <option value="vegetarian">Vegetarier</option>
+        <option value="meatisgoodforyouDOTpng" selected="selected">Nein</option>
+        <option value="seperator" disabled="disabled">---------------</option>
+        <option value="other">Eigenes™</option>
+      </select>
+    </label><hr />
+    <label>Betriebssystem:<br />
+      <select id="operatingsystem" multiple="multiple">
+        <option value="doors">Windows</option>
+        <option value="loonix">GNU/Linux</option>
+        <option value="macfag">OS X</option>
+        <option value="fbsd">FreeBSD</option>
+      </select>
+    </label><br /><button type="button" id="otheros">Eigenes™</button><br />
+  </div>
+</div>
+<hr />
+<div class="row">
+  <small class="col-sm-2 text-left text-muted cs">TOLLE BIO</small>
+  <div class="col-sm-8">
+    <h1 id="biotext" class="text-center text-muted">In Bio war ich nie gut xD</h1>
+  </div>
+  <small class="col-sm-2 text-right text-muted cs">SO SUPER</small>
+</div>
+<hr />
+<p class="text-center">
+<small class="text-muted">(c) 2014 <a href="https://nilsding.org">nilsding</a></small>
+</p>
+</div>
+</body>
+</html>
